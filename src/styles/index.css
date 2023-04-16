@@ -13,42 +13,62 @@ body {
 }
 h1 {
 
-    font-size: 600 px;
+    font: size 900px;
     position: center;
     color: darkred;
-}
-
-
-
-h1 {
+    display: flex;
     font-family:'bangers';
     color: darkred;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 h2, h3 {
     color: darkred;
+    font-size: 30px;
 }
 
 p {
     font-size: 25px;
     font-family: 'alatsi';
     color: black;
+    padding: 10px;
     
+    
+    
+}
+
+mark {
+
+    background-color: rgba(142, 135, 135, 0.826);
+    padding:none;
 }
 
 a {
     color: brown;
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: background-color 0.5s;
+    size-adjust: 20px;
 }
 
 a:hover {
 
-    color: rgba(165, 42, 42, 0.368);
+    color: rgba(248, 234, 111, 0.935);
+    background-color: rgba(0, 0, 0, 0.577);
+
+}
+
+img:hover {
+    background-color: rgba(165, 42, 42, 0.502);
+    padding: 15px;
+     
+
+
 }
 
 main,section,footer {
 width: 90%;
 margin: auto;
+
 
 }
 .container {
@@ -67,6 +87,7 @@ section.container figure img {
     width: 300px;
     width: 100%;
     transition: transform 0.4s ease-in-out;
+   
 }
 
 section.container figure img:hover {
